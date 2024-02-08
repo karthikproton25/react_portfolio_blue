@@ -2,11 +2,11 @@ import React from "react";
 
 export const navbar = () => {
   return (
-    <nav>
-      <a href="/">Portfolio</a>
+    <nav className={styles.navbar}>
+      <a  className={styles.title} href="/">Portfolio</a>
       <div>
-        <ul>
-          <li>
+        <ul className={styles.menu}>
+          <li className={styles.menuitems}>
             <a href="#about">About</a>
           </li>
           <li>

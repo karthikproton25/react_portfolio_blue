@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./navbar.module.css";
 
 export const navbar = () => {
   return (
@@ -22,4 +23,5 @@ export const navbar = () => {
       </div>
     </nav>
   );
+
 };

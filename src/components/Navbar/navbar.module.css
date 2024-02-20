@@ -34,3 +34,10 @@
     list-style: none;
     
 }
+
+.menuitems a{
+    
+    font-size: 25px;
+    color: var(--color-text);
+    text-decoration: none;
+}

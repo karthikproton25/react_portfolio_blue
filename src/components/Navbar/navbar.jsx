@@ -6,7 +6,9 @@ export const navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a  className={styles.title} href="/">Portfolio</a>
-      <div>
+      
+      <div className={styles.menu}>
+      <img className = {menuBtn} src={getimageURL("nav/menuIcon.png")} alt="menu button" />
         <ul className={styles.menu}>
           <li className={styles.menuitems}>
             <a href="#about">About</a>

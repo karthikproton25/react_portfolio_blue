@@ -4,7 +4,10 @@ import { navbar } from "./components/Navbar/navbar";
 function App() {
   return (
     <div className={Styles.App}>
-      <navbar />
+      <Navbar />
+      <Hero />
+      <About />
+      <Experience />
     </div>
   );
 }

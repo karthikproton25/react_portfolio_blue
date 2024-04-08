@@ -10,26 +10,26 @@ export const About = () => {
       <div className={styles.content}>
         <img src={getImageUrl("about/aboutImage.png")} alt="Me sitting with a laptop" className={styles.aboutImage}
         />
-      <ul>
-        <li>
-          <img src="" alt="" />
-          <div>
-            <h3></h3>
-            <p></p>
+      <ul className={styles.aboutItems}>
+        <li className={styles.aboutItem}>
+          <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+          <div className={styles.aboutItemText}>
+            <h3>Frontend Developer</h3>
+            <p>I'm a front end developer</p>
           </div>
         </li>
-        <li>
-          <img src="" alt="" />
-          <div>
-            <h3></h3>
-            <p></p>
+        <li className={styles.aboutItem}>
+          <img src={getImageUrl("about/serverIcon.png")} alt="Server Icon" />
+          <div className={styles.aboutItemText}>
+            <h3>Backend Developer</h3>
+            <p>I build backsystems</p>
           </div>
         </li>
-        <li>
-          <img src="" alt="" />
+        <li className={styles.aboutItem}>
+          <img src={getImageUrl("about/cursorIcon.png")} alt="UI Icon" />
           <div>
-            <h3></h3>
-            <p></p>
+            <h3>UI Designer</h3>
+            <p>I design apps and webpages</p>
           </div>
         </li>
       </ul>

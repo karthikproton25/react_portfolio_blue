@@ -8,6 +8,7 @@ function App() {
       <Hero />
       <About />
       <Experience />
+      <Projects />
     </div>
   );
 }

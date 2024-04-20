@@ -1,8 +1,3 @@
-# React + Vite
+In this tutorial, we are guided step-by-step through creating an impressive portfolio website. Discover the power of React components, master CSS Modules for streamlined styling, and bring your site to life with captivating CSS animations. Unlock the secrets of responsive design and learn to leverage the potential of React hooks for dynamic user experiences.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This lesson is from code complete youtube channel. It took a total of 3ish hours (cumulative) to complete this tutorial.
